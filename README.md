@@ -1,1 +1,1 @@
-# personaldevprojects
+# Página dedicada a postagem de projetos diversos.
