@@ -1,0 +1,110 @@
+@media screen and ( max-width: 735px ) {
+    body {
+        background-image: url();
+        font-size: 10px;  
+    }
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.8em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 240%;
+}
+a {
+	text-decoration: none;
+	color: #611F0D;
+}
+a:hover {
+}
+    
+.container {
+	width: 50px;
+	margin: 0px auto;
+}
+#header {
+	width: 135px;
+	height: 25px;
+	margin: 0;
+}
+#menu {
+	float: right;
+	width: 135px;
+	height: 70px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#menu ul {
+	float: right;
+	margin: 0px;
+	padding: 28px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+	padding: 0;
+}
+
+#menu a {
+	display: block;
+	height: 20px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Arvo', serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #927160;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#logo {
+	width: 360px;
+}
+
+#logo h1, #logo p {
+}
+
+#logo h1 {
+	padding: 0px 0px 0px 0px;
+	letter-spacing: -3px;
+	text-transform: lowercase;
+	font-size: 48px;
+}
+
+#menumeio {
+    padding: 200px 0px 0px 20px;
+}
+
+#menumeiousuario {
+    padding: 100px;
+    margin: 0;
+}
+
+#tabela {
+    padding-left: 99px;
+    padding-bottom: 100%;
+    padding-top: 0;
+}
+
+#rodape {
+    display: none;
+}
+}
