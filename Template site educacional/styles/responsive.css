@@ -1,0 +1,290 @@
+@media screen and (max-width: 976px){
+  #menupesquisa {
+    padding: 0 2px;
+  }
+
+  #menumeio {
+    padding: 0 23px;
+  }
+  
+  #menusubtopo {
+    padding: 0 2%;
+  }
+
+  #menupesquisa {
+    padding: 0 2%;
+
+  }
+
+  #menupesquisaleft {
+    width: auto;
+  }
+
+  #formulario {
+  }
+  
+  #menulateral {
+    float: left;
+    width: 100%;
+    padding-left: 23px;
+  }
+
+  #menulateral ul li {
+    display: inline-block;
+    margin: 0px -3px;
+  }
+
+  #menulateral ul li a {
+    padding: 8px;
+  }
+  
+  #menulateral ul li ul li {
+    border-top: 1px solid #0F8680;
+    display: block;
+  }
+  
+  #menulateral ul li ul {
+    padding: 0px 3px;
+    border: 1px solid #0F8680;
+  }  
+  
+  #menulateral ul li ul li a {
+    padding: 8px 8px;
+  }
+  
+  #menulateral ul li:hover ul {
+    position: absolute;
+  }
+  
+  #conteudo {
+    margin: 0 auto;
+    float: none;
+    width: auto;
+  }
+  
+  .noticia {
+    width: 44%;
+    margin: 15px 3%;
+  } 
+
+  .noticia h3 {
+    font-size: 90%;
+  }
+
+  .autor {
+    font-size: 70%;
+  }
+
+  .data {
+    font-size: 70%;
+    margin-left: 2.5%;
+  }
+  
+  #outras-noticias h3 {
+    font-size: 80%;
+    margin: 0 0 0.5% 3%;
+  }
+
+  #outras-noticias ul {
+    width: 43%;
+    margin: 0 3.5%;
+  }
+
+  #outras-noticias li {
+    font-size: 70%;
+    width: 100%;
+  }
+
+  #noticias-nav {
+    margin: 0 2%;
+    font-size: 80%;
+    padding: 15px 0 25px 0;
+  }
+
+  .first-nav {
+    padding: 0 3%;
+  }
+
+  .page-nav {
+    padding: 0 10px;
+  }
+
+  .page-nav-selected {
+    padding: 0 10px;
+  }
+
+  .last-nav {
+    padding: 0 3%;
+  }
+
+  #left {
+    float: right;
+  }
+
+  #right {
+    display: none;
+  }
+  
+  #rodape {
+    padding: 8px 0 8px 0;
+  }
+  
+}
+
+@media screen and ( max-width: 600px ) {
+  body {
+    font-size: 18px;
+  }
+
+  #menutopo {
+    display: none;
+  }
+
+  #menumeio {
+    padding: 0;
+  }
+
+  #logomenumeio {
+    margin: 0 auto;
+  }
+
+  #left {
+    display: none;
+  }
+
+  #right {
+    display: none;
+  }
+
+  #menulateral ul li a {
+    padding: 8px 17px;
+  }
+
+  .compactingmenus.compact ul{
+    display: none;
+  }
+
+  .compactingmenus.compact.appear ul{
+    display: block;
+
+  }
+
+  .compactingmenus.compact.appear ul li{
+    display: block;
+    width: 100%;
+    border-top: 1px solid #0F8680;
+  }
+
+  .compactingmenus .expandingbutton{
+    cursor: pointer;
+    position: relative;
+    float: left;
+    margin: 7px 3px;
+    height: 27px;
+    width: 28px;
+    z-index: 1
+  }
+
+  .compactingmenus.compact .line1, .compactingmenus.compact .line2, .compactingmenus.compact .line3 {
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    top: 8px;
+    left: 4px;
+    width: 20px;
+  }
+  .compactingmenus.compact .line2 {
+    top: 14px;
+  }
+  .compactingmenus.compact .line3 {
+    top: 20px;
+  }
+
+  .compactingmenus.compact .menu-name {
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 86%;
+    float: left;
+    margin: 12px 0;
+    cursor: pointer;
+  }
+
+  #conteudo {
+    display: block;
+    width: auto;
+  }
+
+  #menupesquisaleft {
+    display: none;
+  }
+  
+  #logo {
+    display: none;
+  }
+  
+  #menupesquisa {
+    padding: 0;
+    margin: 0;
+  }
+
+#formulario {
+  position: absolute;
+  top: 131px;
+  right: 0;
+  padding: 0;
+}
+
+#pesquisar {
+  background: none;
+  width: 175px;
+  margin-right: 5px;
+  border: none;
+  color: #fff;
+  font-size: 100%;
+  padding: 10px 0 0 0;
+  float: left;
+}
+
+button[type="submit"] {
+  background: url("../images/pesquisa.png") no-repeat;
+  margin-right: 15px;
+  float: right;
+}
+
+  .noticia {
+    width: auto;
+    margin: 2.5%
+  }
+
+  #outras-noticias ul {
+    width: auto;
+  }
+
+  #logorodape {
+    display: none;
+  }
+
+  #noticias-nav {
+    padding-bottom: 30px;
+  }
+
+  .first-nav {
+    padding: 12px 13px;
+  }
+  
+  .last-nav {
+    padding: 12px 13px;
+  }
+  
+  .itensrodape {
+    width: 28%;
+    margin: 0 2%;
+    font-size: 60%;
+  }
+
+  .centralizador {
+    width: auto;
+  }
+  
+}

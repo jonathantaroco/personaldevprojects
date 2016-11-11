@@ -1,0 +1,399 @@
+/*************************************************
+	Geral
+*************************************************/
+
+body {
+	margin: 0;
+	padding: 0;
+    font-family: "Open Sans", "Segoe UI", sans-serif;
+    font-weight: 400;
+	font-size: 14px;
+}
+
+#conteiner {
+	margin: 0 auto;
+    max-width: 960px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {    
+	color: #fff;
+	margin: 0;
+	display: block;
+	float: left;
+}
+
+li:hover {
+	-webkit-transition: all 0.2s;
+	transition: 0.2s;
+	background-color: #fff; 
+	color: #000;
+}
+
+li a {
+    display: block;
+    padding: 9px;
+}
+
+li a:hover {
+	margin: 0;
+	-webkit-transition: all 0.2s;
+	transition: 0.2s;
+	color: #000;
+}
+
+p {
+	font-size: 90%;
+	text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;  
+}
+
+.selected {
+	font-weight: 700;
+}
+
+.clearfix {
+	clear: both;
+}
+
+
+/*************************************************
+	Header
+*************************************************/
+#menutopo {
+	padding: 0px 20px;
+	background: #089891;
+	font-size: 90%;
+}
+
+#logo {
+	background-image: url("../images/logo.png");
+	margin: 5px;
+	width: 60px;
+	height: 25px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#left {
+	float: left;
+}
+
+#right {
+	float: right;
+}
+
+#menumeio {   
+	padding: 35px;
+	background-color: #fff;    
+}
+
+#logomenumeio {
+	background-image: url("../images/logo_nead_ufsj.png");
+	background-repeat: no-repeat;
+	height: 129px;
+	width: 172px;
+}
+
+#menusubtopo {
+	padding-left: 20px;    
+	background: #089891;
+	font-size: 100%;
+	font-weight: 500;
+}
+
+#menusubtopo ul li {
+	display: inline-block;
+	list-style: none;
+	position: relative;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+#menusubtopo ul li ul {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 200px;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+	display: none;
+	opacity: 1000;
+	visibility: hidden;
+}
+
+#menusubtopo ul li ul li {
+	border: 1px solid #0F8680;
+	background: #15B6AF;
+	display: block;
+	width: 100%;
+	z-index: 1;
+}
+
+#menusubtopo ul li:hover a {
+    color: #000;
+}
+
+#menusubtopo ul li:hover li a {
+    color: #fff;
+}
+
+#menusubtopo ul li:hover li a:hover {
+	background: #fff;
+    color: #000;
+}
+
+#menusubtopo ul li:hover ul {
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+
+#menupesquisa {
+	padding: 20px;
+	background-color: #16C0B8;
+	color: #fff;
+}
+
+.compactingmenus .menu-name {
+    display: none;
+  }
+
+#menupesquisa a {
+	color: #fff;
+}
+
+#conteudo {
+	width: 780px;
+	padding-top: 10px;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.noticia {
+	width: 335px;
+	float:left;
+	margin: 10px 27px;
+}
+
+.noticia h3 {
+	font-size: 100%;
+	margin: 0;
+	text-align: justify;
+}
+
+.autor {
+	font-size: 75%;
+	display: inline-block;
+}
+
+.data {
+	font-size: 75%;
+	display: inline-block;
+	margin-left: 5%;
+}
+
+#menupesquisaleft {
+	padding: 20px 0 20px 10px;
+	color: #fff;
+	float: left;
+}
+
+#nomenead {
+	font-size: 125%;
+}
+
+#localizacao {
+	font-size: 85%;
+}
+
+#localizacao a {
+	font-weight: bold;
+}
+
+#formulario {
+	float: right;
+	padding: 20px 10px 20px 0;
+}
+
+#pesquisar {
+	background: none;
+	width: 150px;
+	border: none;
+	color: #fff;
+	font-size: 115%;
+}
+
+#pesquisar:focus {
+	border-color: #000;
+	outline: 0;
+	border-bottom: 1px dashed #fff;
+}
+
+#pesquisar::-webkit-input-placeholder {
+	color: #fff;
+	font-style: italic;
+}
+
+button[type="submit"] {
+	background-image: url("../images/pesquisa.png");
+	width: 38px;
+	height: 38px;
+	border: none;
+}
+
+#menulateral {
+	width: 180px;
+	background: #16C0B8;
+	height: 100%;
+    display: table-cell;
+    vertical-align: top;
+}
+
+#menulateral ul li {
+	float: none;
+	list-style: none;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+#menulateral ul li a {
+	padding-left: 28px;
+}
+
+#menulateral ul li ul {
+	width: 180px;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+	display: none;
+	opacity: 1000;
+	visibility: hidden;
+}
+
+#menulateral ul li:hover ul {
+	display: block;
+	opacity: 1;
+	visibility: visible;
+    z-index: 1;
+}
+
+#menulateral ul li ul li a {
+	background: #15B6AF;   
+}
+
+#menulateral ul li:hover a {
+    color: #000;
+}
+
+#menulateral ul li:hover li a {
+    color: #fff;
+}
+
+#menulateral ul li:hover li a:hover {
+	background: #fff;
+    color: #000;
+}
+
+#outras-noticias h3 {
+	font-size: 90%;
+	margin: 0 0 3px 27px;
+	text-align: justify;
+}
+
+#outras-noticias ul {
+	width: 335px;
+	float: left;
+	margin: 0 27px;
+}
+
+#outras-noticias li {
+	color: #000;
+	padding: 0px;
+	font-size: 75%;
+	width: 335px;
+}
+
+.paginador {
+	padding: 25px 0 0;
+}
+
+.centralizador {
+	text-align: center;
+	width: 500px;
+	margin: 0 auto;
+}
+
+#noticias-nav {
+	font-size: 85%;
+	display: inline-block;
+}
+
+.first-nav {
+	padding: 2px 27px;
+    float: left;
+	color: #16C0B8;
+}
+
+.page-nav {
+	padding: 2px 7px;
+	float: left;
+	color: #16C0B8;
+
+}
+
+.page-nav-selected {
+	padding: 2px 7px;
+	color: #fff;
+	background-color: #16C0B8;
+
+}
+
+.last-nav {
+	padding: 2px 28px;
+	float: right;    
+	color: #16C0B8;
+}
+
+#rodape {
+	border-top: 6px solid #0F8680;
+	padding: 25px 0 15px 0;
+	background-color: #089891;
+	color: #fff;
+}
+
+#logorodape {
+	background-image: url("../images/logo_nead_ufsj_rodape.png");
+	background-repeat: no-repeat;
+	float: left;
+	height: 111px;
+	width: 114px;
+	margin-left: 40px;
+	padding-left: 15%;
+}
+
+.itensrodape {
+	width: 20%;
+	vertical-align: top;
+	display: inline-block;
+	font-size: 85%;
+}
+
+.itensrodape li {
+	float: none;
+}
+
+#ufsj {
+	padding-top: 3%;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 95%;
+	font-weight: 600;
+}
